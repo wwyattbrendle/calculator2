@@ -96,7 +96,7 @@ operator.add.addEventListener("click", function() {
     }
     checker.operatorSelected = true;
     checker.isAddition = true;
-    display.textContent = values[1];
+    display.textContent = values[0];
 });
 
 operator.subtract.addEventListener("click", function() {
@@ -105,7 +105,7 @@ operator.subtract.addEventListener("click", function() {
     }
     checker.operatorSelected = true;
     checker.isSubtraction = true;
-    display.textContent = values[1];
+    display.textContent = values[0];
 });
 
 operator.multiply.addEventListener("click", function() {
@@ -114,7 +114,7 @@ operator.multiply.addEventListener("click", function() {
     }
     checker.operatorSelected = true;
     checker.isMultiplication = true;
-    display.textContent = values[1];
+    display.textContent = values[0];
 });
 
 operator.divide.addEventListener("click", function() {
@@ -123,7 +123,7 @@ operator.divide.addEventListener("click", function() {
     }
     checker.operatorSelected = true;
     checker.isDivision = true;
-    display.textContent = values[1];
+    display.textContent = values[0];
 });
 
 operator.equal.addEventListener("click", function() {
